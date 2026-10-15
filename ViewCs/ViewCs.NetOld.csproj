@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <OutputType>WinExe</OutputType>
+    <Platforms>x64;x86;Any CPU</Platforms>
+    <RootNamespace>ViewCs</RootNamespace>
+    <TargetFrameworks>
+      net45;
+      net48;
+    </TargetFrameworks>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <Import Project="..\Props\OutputApps.props" />
+
+  <Import Project="..\Props\CustomIcons.props" />
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <Import Project="Targets.props" />
+
+</Project>
