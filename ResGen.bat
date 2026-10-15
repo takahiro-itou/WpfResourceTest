@@ -1,5 +1,4 @@
 
-@echo  off
 setlocal
 
 IF  not exist "ViewCs\Lang"  mkdir "ViewCs\Lang"
