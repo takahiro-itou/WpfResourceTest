@@ -20,4 +20,18 @@
 
   <Import Project="Targets.props" />
 
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\LangResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>LangResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <!-- 生成されたファイルを確実にコンパイル対象(Compile)に含める -->
+  <ItemGroup>
+    <Compile
+        Include="Properties\LangResource.Designer.cs"
+        Condition="Exists('Properties\LangResource.Designer.cs')" />
+  </ItemGroup>
+
 </Project>
