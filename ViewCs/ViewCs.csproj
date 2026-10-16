@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Properties\Langesource.resx">
+    <EmbeddedResource Update="Properties\LangResource.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>LangResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
