@@ -1,0 +1,3 @@
+[submodule "ResGen"]
+	path = ResGen
+	url  = ../ResourceGenerator.git
